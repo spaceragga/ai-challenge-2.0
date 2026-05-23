@@ -41,6 +41,8 @@ No real names, titles, departments, or photos were used.
 
 Live demo: **https://spaceragga.github.io/ai-challenge-2.0/**
 
+> Enable GitHub Pages once: repo **Settings → Pages → Build and deployment → Deploy from branch → `gh-pages` / `/ (root)`**.
+
 Local run:
 
 ```bash
