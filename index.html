@@ -3,11 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leaderboard</title>
-    <script type="module" crossorigin src="/ai-challenge-2.0/assets/index-DWyKoNXm.js"></script>
-    <link rel="stylesheet" crossorigin href="/ai-challenge-2.0/assets/index-DfnD-YRT.css">
+    <title>AI Challenge 2.0</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      main {
+        width: 100%;
+        max-width: 520px;
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin-bottom: 8px;
+      }
+      p {
+        color: #64748b;
+        margin-bottom: 24px;
+        line-height: 1.5;
+      }
+      ul {
+        list-style: none;
+      }
+      li + li {
+        margin-top: 10px;
+      }
+      a {
+        display: block;
+        padding: 14px 16px;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        color: #0369a1;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        background: #f0f9ff;
+        border-color: #bae6fd;
+      }
+      .muted {
+        color: #94a3b8;
+        font-weight: 400;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <main>
+      <h1>AI Challenge 2.0</h1>
+      <p>Submissions for each task live at a stable path and are not overwritten by later tasks.</p>
+      <ul>
+        <li>
+          <a href="./task-1/">
+            Task 1 — The Clone Wars
+            <span class="muted"> · Leaderboard clone</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-disabled="true" style="opacity: 0.45; pointer-events: none">
+            Task 2 — Lovable prototype
+            <span class="muted"> · coming soon</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-disabled="true" style="opacity: 0.45; pointer-events: none">
+            Task 3 — n8n workflow
+            <span class="muted"> · coming soon</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-disabled="true" style="opacity: 0.45; pointer-events: none">
+            Task 4 — MCPing
+            <span class="muted"> · coming soon</span>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
