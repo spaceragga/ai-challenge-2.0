@@ -32,8 +32,20 @@ bash scripts/deploy-pages.sh
 
 Or push to `main` — GitHub Actions runs [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml).
 
+## Task 2 — You Shall Not Pass (Lovable)
+
+Event hosting platform **EventPass**.
+
+| | |
+|---|---|
+| **Live demo** | https://share-the-event.lovable.app/ |
+| **Source** | [`task-2/`](./task-2/) |
+| **Report** | [`task-2/report.md`](./task-2/report.md) |
+
+Task 2 deploys via **Lovable** (not GitHub Pages) — Supabase + SSR required.
+
 ## Upcoming tasks
 
-- `task-2` — Prototyping with Lovable → `/task-2/`
+- `task-2` — Prototyping with Lovable → Lovable publish URL (source in [`task-2/`](./task-2/))
 - `task-3` — Workflowing with n8n → `/task-3/`
 - `task-4` — MCPing → `/task-4/`
