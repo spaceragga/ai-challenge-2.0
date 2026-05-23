@@ -1,3 +1,8 @@
+
+
+
+
+
 # Task 2 — EventPass (Share the Event)
 
 Lightweight event hosting platform built with **Lovable** (TanStack Start + Supabase).
@@ -5,6 +10,12 @@ Lightweight event hosting platform built with **Lovable** (TanStack Start + Supa
 ## Live app
 
 **Deploy URL:** https://share-the-event.lovable.app/
+
+## Video
+
+https://github.com/user-attachments/assets/6613bc4d-1bab-4ecf-b66c-f1136c073688
+
+https://github.com/user-attachments/assets/68251997-0e6e-47e8-aa80-39c51d77fd87
 
 ## Local development
 
