@@ -3,14 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://spaceragga.github.io/ai-challenge-2.0/",
+  "homepage": "https://spaceragga.github.io/ai-challenge-2.0/task-1/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.6",

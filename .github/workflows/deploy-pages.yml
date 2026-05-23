@@ -1,11 +1,12 @@
-name: Deploy Task 1 to GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
       - 'task-1/**'
-      - '.github/workflows/deploy-task-1.yml'
+      - 'pages/**'
+      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,14 +24,17 @@ jobs:
           cache: npm
           cache-dependency-path: task-1/package-lock.json
 
-      - name: Install and build
-        working-directory: task-1
+      - name: Build and assemble site
         run: |
+          mkdir -p _site/task-1
+          cp -r pages/* _site/
+          cd task-1
           npm ci
           npm run build
+          cp -r dist/* ../_site/task-1/
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: task-1/dist
+          publish_dir: _site
